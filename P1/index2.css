@@ -7,6 +7,7 @@ body {
     margin: 0; /* Para quitar el por defecto */
     background-color: #b7bec8;
     overflow-x: hidden;
+    /* overflow: hidden; */
 }
 .maquina{
     display: block;
