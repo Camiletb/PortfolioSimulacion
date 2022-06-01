@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Bebas-Neue";
+    src: url(/P1/Fuentes/BebasNeue-Regular.ttf);
+}
+
+
+/* body > p {
+    font-family: "Bebas-Neue";
+    font-size: 2em;
+    text-align: center;
+    color: #373E48;
+} */
+
+/* .contrato {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 30vw;
+    border: 1px solid #ECECEC;
+    box-shadow: 0em 0em 0.7em 0.03em rgba(83, 93, 108, 0.2);
+    text-align: center;
+    border-radius: 0.3em;
+    background-color: #ECECEC;
+}
+
+.contrato > * {
+    font-family: "Bebas-Neue";
+    font-size: 20px;
+    color: #373E48;
+}
+
+.input, .tab > p > textarea {
+    display: block;
+    border-radius: 0.3em;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vw;
+    text-indent: 0.5em;
+    transition: ease-in-out 0.1s;
+    box-shadow: none;
+    border: 1px solid #B7BEC8;
+    background-color: white;
+    color: #373E48;
+}
+
+.contrato > label {
+    margin-bottom: 0.5em;
+}
+
+.contrato > input {
+    height: 2.5em;
+}
+
+.input:focus, .tab > textarea:focus {
+    transition: ease-in-out 0.1s;
+    box-shadow: 0em 0em 0.7em 0.03em rgba(83, 93, 108, 0.4);
+    outline: none;
+    background-color: white;
+}
+
+#prefix {
+    width: 3em;
+}
+
+.tab > textarea {
+    height: 10em;
+} */
+body {
+    background-color:#292b2c;
+}
+
+#capaTeContrato{
+    height: 100%;
+}
+
+h6{
+    color:#535D6C;
+    padding-bottom: 10px;
+    border-bottom:1px solid #ECECEC;
+}
+
+.fascia{
+    margin: 20px;
+}

@@ -1,0 +1,17 @@
+*{
+    /* Sobreescribe el box-sizing de Bootstrap por defecto: border-box */
+    /* box-sizing: content-box; //Úsala si no usas bootstrap*/
+    box-sizing: border-box; /* Por defecto en Bootstrap */
+}
+
+body{
+    margin: 0; /* Para quitar el por defecto */
+}
+
+.div_bueno{ /* Por especificidad, se recomienda trabajar con clases si es posible */
+    /* Para centrar un elemento */
+    margin-left: auto;
+    margin-right: auto;
+    /* Para gestionar los contenidos mayores a sus contenedores, a priori usamos: */
+    overflow: auto;
+}

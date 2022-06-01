@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Las Tartas de Beatriz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./JavaScript/libCapas2021.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script src="./JavaScript/carrito.js"></script>
+        <link rel="icon" type="image/ico" href="./Imagenes/icono_nuevo.ico" sizes="64x64"/>
+        <link rel="stylesheet" href="Estilos/index.css"/>
+    </head>
+    
+    <body onload="Cargar('inicio.html','cuerpo')">
+        
+        <!--HEADER-->
+        <div id="navigation2">
+            <table>
+                <tr>
+                    <td>
+                        <a class="iconos2" href="#" onclick="Cargar('carrito.html','cuerpo')"><i class='fas fa-shopping-basket'></i></a>
+                    </td>
+                    <td>
+                        <a class="iconos2" href="#" onclick="Cargar('Login.jsp','cuerpo')"><i class='fas fa-user-alt'></i></a>
+                    </td>
+                    <td>
+                        <a class="iconos2" href="http://localhost/Practica3"><i class='fas fa-briefcase'></i></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <!--BANNER-->
+        <div id="div_banner">
+            <img id="banner" src="./Imagenes/logo_nuevo.png" alt="Banner Las Tartas de Beatriz">
+        </div>
+        
+        <!--NAVEGACION-->
+        <div id="navigation1"> 
+            <table>
+                <tr>
+                    <td>
+                        <a class="iconos1" href="#" onclick="Cargar('inicio.html','cuerpo')">Inicio</a>
+                    </td>
+                    <td>
+                        <a class="iconos1" href="#" onclick="Cargar('nosotros.html','cuerpo')">Sobre Nosotros</a>
+                    </td>
+                    <td>
+                        <a class="iconos1" href="#" onclick="Cargar('contacto.html','cuerpo')">Contacto</a>
+                    </td>
+                    <td>
+                        <a class="iconos1" href="#" onclick="Cargar('productos.html','cuerpo')">Productos</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <!--CUERPO-->
+        <div id="cuerpo"></div> <!-- Aqui se cargaran las cosas -->
+        
+        <footer id="footer">
+            <p id="footer_text">Las Tartas de Beatriz&copy; 2009 - Esto es falso</p>
+        </footer>
+    </body>
+</html>

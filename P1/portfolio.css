@@ -1,0 +1,83 @@
+.jumbotron h1 {
+    color:#ECECEC;
+    /* color:#d12642; */
+    font-family: "Bebas-Neue";
+    font-size: 5em;
+    /* font-weight: bold; */
+    letter-spacing: 0.2em;
+    /* background-color: white; */
+}
+.cardpase{
+height: 32vw;
+width: 30vh;
+}
+.bio {
+    font-size: 14px;
+}
+#navbar{
+    /* background-color: #373E48; */
+    background-color: #181a1b;
+    /* border-bottom:1px solid #ECECEC; */
+    border-bottom:1px solid #373E48;
+    border-top:1px solid #373E48;
+}
+
+#leftP{
+    background-color: #181a1b;
+    border-right:1px solid #373E48;
+}
+/* #rightP{
+    background-color: #222426;
+} */
+#tablon{
+    /* background-color: #181a1b; */
+    background-color: #373E48;
+    /* background-color: #ECECEC; */
+    /* background-color: white; */
+    border: 1px solid lightskyblue;
+    border-radius: 4px;
+    height: 59vh;
+    width: 55vw;
+    box-shadow: 0em 0em 0.7em 0.03em rgba(38, 43, 51, 0.2);
+    margin: auto;
+}
+.contribuciones{
+    /* background-color: #ECECEC; */
+    border:1px solid #181a1b;
+    border-radius: 3px;
+    padding-top: 25px;
+    margin: auto;
+    height: 15vh;
+    width: 30vw;
+}
+#asignaturas{
+    height: 35vh;
+    
+}
+.fotoasignatura{
+    margin: 30px 30px;
+    height: 20vh;
+    width: 15vw;
+    filter: grayscale(100%) blur(1px);
+    transition: filter .5s ease-in-out;
+    transform: scale(1) translate(0, 0);
+    transition: transform 120ms ease-in;
+}
+.fotoasignatura:hover{
+    filter: none;
+    transform: scale(1.02);
+}
+figure{
+    display: flex;
+}
+.asignacap{
+    display: inline;
+    width: 15vw;
+    background-color:#181a1b;
+    opacity: 50%;
+    transform:translate(0px 35px);
+}
+
+.asignatitulo{
+    padding-top: 10vh;
+}
