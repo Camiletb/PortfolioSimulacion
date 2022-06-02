@@ -147,42 +147,72 @@
                     <h1 id="ejerciciosClase" class="text-end"">Ejercicios de clase</h1>
                     <hr/>
                 </div>
-                <div id="ejercicios" class="d-flex mt-5">
-                    <div id="ej1" class="container col-5">
-                        <h2 class="">1 Montañas rusas</h2>
-                        <p>El objetivo es empezar a manejar velocidades y aceleraciones de partículas según diversas condiciones, como las pendientes.</p>
-                        <div class="  d-flex justify-content-center align-items-center mb-3">       
-                            <img src="gmontanya.gif" class="justify-self-center" alt="Ejericio de la montaña rusa" width="100%">
-                        </div>
+                <div id="ejercicios" class="d-flex flex-column mt-5">
+                    <div class="d-flex mb-5">
 
-                        <p>Para hacer ambos ejercicios elegimos unos puntos que definieran la forma de nuestra montaña. Estos puntos fueron unidos por líneas. Y estas líneas son recorridas por una partícula con atributos de posición, velocidad y aceleración.</p>
-                        <!-- <div id="ej1" class="d-flex col-9"> -->   
-                    </div>
-                <br/>
-                
-                    <div id="ej2" class="container col-5">
-                        <h2 class="">2 Muelles</h2>
-                        <p>Con estos ejercicios empezamos a introducir fuerzas externas que afectan a nuestras partículas.</p>
-                        <div class="  d-flex justify-content-center align-items-center mb-3">       
-                            <img src="gmuelles.gif" class="justify-self-center" alt="Ejericio de la montaña rusa" width="100%">
+                        <div id="ej1" class="container col-6">
+                            <h2 class="">1 Montañas rusas</h2>
+                            <p>El objetivo es empezar a manejar velocidades y aceleraciones de partículas con cierto control.</p>
+                            <div class="  d-flex justify-content-center align-items-center mb-3">       
+                                <img src="gmontanya.gif" class="justify-self-center" alt="Ejericio de la montaña rusa" width="100%">
+                            </div>
+                            
+                            <p>Para hacer ambos ejercicios elegimos unos puntos que definieran la forma de nuestra montaña. Estos puntos fueron unidos por líneas. Y estas líneas son recorridas por una partícula con atributos de posición, velocidad y aceleración.</p> 
                         </div>
-
-                        <p>Sobre nuestra partícula ejercemos fuerzas como la gravedad o la elástica. En el primer caso, además, añadimos fuerzas de rozamiento con el aire, y de amortiguación con el muelle.</p>
-                        <!-- <div id="ej1" class="d-flex col-9"> -->   
-                    </div>
                         <br/>
-                    <!-- </div> -->
-                        <!-- <h2 class="mt-5">2 Muelles</h2>
-                        <p>Con estos ejercicios empezamos a introducir fuerzas externas que afectan a nuestras partículas, como la gravedad o las aplicadas por un muelle.</p>
-                        <img src="gmuelles.gif" class="text-center" alt="Ejericio de muelles" width="50%">
-                        <br/> -->
-                        <!-- <p>Próximamente</p> -->
-                    <!-- Entrega 1 -->
-                    <!-- <script type="text/p5" src="js/ej1.js" data-autoplay data-preview-width="400">
-                       
-                    </script> -->
-                    <!-- <script defer src=http://CDN.JSDelivr.net/processing.js/latest></script> -->
-                    <!-- <canvas data-processing-sources=/sketch.pde></canvas> -->
+                        <div id="ej2" class="container col-6">
+                            <h2 class="">2 Muelles</h2>
+                            <p>Con estos ejercicios empezamos a introducir fuerzas externas que afectan a nuestras partículas.</p>
+                            <div class="  d-flex justify-content-center align-items-center mb-3">       
+                                <img src="gmuelles.gif" class="justify-self-center" alt="Ejericio de la montaña rusa" width="100%">
+                            </div>                            
+                            <p>Sobre nuestra partícula ejercemos fuerzas como la gravedad o la elástica. En el primer caso, además, añadimos fuerzas de rozamiento con el aire, y de amortiguación con el muelle.</p>
+                           
+                        </div>
+                        <br/>
+                    </div>
+                    <div class="d-flex mb-5">
+
+                        <div id="ej3" class="container col-6">
+                            <h2 class="">3 Buble Gun</h2>
+                            <p>Aquí empezamos a tomar control sobre las partículas mediante el uso de nuestros periféricos.</p>
+                            <div class="  d-flex justify-content-center align-items-center mb-3">       
+                                <img src="gbubble.gif" class="justify-self-center" alt="Ejericio de la montaña rusa" width="100%">
+                            </div>                            
+                            <p>Controlamos la dirección de nuestra bola mediante el teclado, haciendo que cambie el ángulo de disparo. Luego la lanzamos, y mediante un array de partículas podemos ir disparando nuevas.</p>                            
+                        </div>
+                        <br/>
+                        <div id="ej4" class="container col-6">
+                            <h2 class="">4 Pendiente</h2>
+                            <p>A partir de este ejericio podemos simular la interacción de las partículas en un plano inclinado</p>
+                            <div class="  d-flex justify-content-center align-items-center mb-3">       
+                                <img src="gpendiente.gif" class="justify-self-center" alt="Ejericio de la montaña rusa" width="100%">
+                            </div>                            
+                            <p>Este modelo se adapta a la pendiente que le demos, permitiendo aumentar la fuerza de rozamiento, la inclinación o la gravedad. Además, podemos clickar con el mouse para reposicionar la partícula.</p>
+                        </div>
+                        <br/>
+                    </div>
+                    <div class="d-flex">
+
+                        <div id="ej5" class="container col-12"> <!--Cambiar a 6 si añadimos otro ejercicio.-->
+                            <h2 class="">5 Tiro parabólico</h2>
+                            <p>Con este ejercicio conseguimos un control bastante bueno de la partícula y su entorno.</p>
+                            <div class="  d-flex justify-content-center align-items-center mb-3">       
+                                <img src="gparabola.gif" class="justify-self-center" alt="Ejericio de la montaña rusa" width="100%">
+                            </div>                            
+                            <p>Con el mouse disparamos la bola, y con W y S podemos modificar la altura. Los arrays de partículas ya no presentan dificultad.</p>
+                        </div>
+                        <br/>
+                        <div id="ej6" class="container col-6 visually-hidden">
+                            <h2 class="">6 Acelerador y oscilador</h2>
+                            <p>A partir de este ejericio podemos simular la interacción de las partículas en un plano inclinado</p>
+                            <div class="  d-flex justify-content-center align-items-center mb-3">       
+                                <img src="gpendiente.gif" class="justify-self-center" alt="Ejericio de la montaña rusa" width="100%">
+                            </div>                            
+                            <p>Este modelo se adapta a la pendiente que le demos, permitiendo aumentar la fuerza de rozamiento, la inclinación o la gravedad. Además, podemos clickar con el mouse para reposicionar la partícula.</p>
+                        </div>
+                        <br/>
+                    </div>
                 </div>
             </div>
 
