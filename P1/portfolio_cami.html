@@ -24,11 +24,11 @@
         <div id="marca" class="jumbotron text-center bg-dark">
             <!-- <img src="/Imagenes/L1.png" alt="logo" width="64" height="64"></img> -->
             <h1 class="corpocolor">Camilo Enguix Nadal</h1>
-            <h2 class="corpocolor">Ejercicios de simulación con Processing</h2>
+            <h2 class="corpocolor">Ejercicios de simulación con Processing 4</h2>
         </div>
 
         <nav id="navbar" class="navbar navbar-expand-md navbar-dark"> <!-- TODO: Navbar -->
-            <a id="icono_NavBar" class="navbar-brand" href="/P1/index.html">Portfolio</a>
+            <a id="icono_NavBar" class="navbar-brand" href="#">P4</a>
 
             <!--Collapsable Navbar-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#items" aria-controls="items" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,10 +38,11 @@
             <!-- Para que se reduzca en móvil -->
             <div id="items" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto"> <!-- TODO: Enlaces -->
-                    <li class="nav-item"><a class="nav-link disabled" href="#">Ejercicios</a></li>
-                    <li class="nav-item"><a class="nav-link disabled" href="#">Laboratorios</a></li>
-                    <li class="nav-item"><a class="nav-link disabled" href="#">Multimedia</a></li>
-                    <li class="nav-item"><a class="nav-link visually-hidden disabled" href="#">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ejerciciosClase">Ejercicios</a></li>
+                    <span  data-toggle="tooltip" title="Próximamente">
+                        <li class="nav-item"><a class="nav-link disabled" href="#">Laboratorios</a></li>
+                    </span>
+                    <li class="nav-item"><a class="nav-link  visually-hidden disabled" href="#">Multimedia</a></li>
                     <li class="nav-item dropdown visually-hidden">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="#">Contacto</a>
                         <ul id="dropdown-menu-navbar" class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown1">
@@ -99,24 +100,38 @@
 
                         <div id="tablon" class="d-flex flex-column">
                             <!-- Contribuciones -->
-                            <div class="contribuciones text-center text-light">
-                                <h4>Contacto</h4>
+                            <div class=" contribuciones text-center text-light">
+                                <h4 class="mt-5 text-end">Información</h4>
                                 <hr/>
-                                <h6>Camilo Enguix Nadal</h6>
-                                <a href="mailto:caena@alumni.uv.es?subject=Portfolio de Simulación" class="plink">
-                                    Correo del alumno
-                                </a>
-                                <br/>
-                                <a href="https://github.com/Camiletb/L1-SIM" class="plink">
-                                    Github de los laboratorios
-                                </a>
-                                <br/>
-                                <a href="https://github.com/Camiletb/L1-SIM" class="plink visually-hidden">
-                                    Github de los ejercicios
-                                </a>
-                                <hr/>
-                                <h6>Simulación</h6>
-                                <p> 3º Enginyeria Multimèdia - Escola Tècnica Superior d'Enginyeries (UV)</p>
+                                <div class=" d-flex mt-5">
+
+                                    <div id="alumno" class="col-6 text-end">
+                                        <h6>Alumno</h6>
+                                        <div class="text-end">
+                                            
+                                            <p class="mb-0">Camilo Enguix Nadal</p>
+                                            <a href="mailto:caena@alumni.uv.es?subject=Portfolio de Simulación" class="plink">
+                                                Correo del alumno
+                                            </a>
+                                            <br/>
+                                            <a href="https://github.com/Camiletb/L1-SIM" class="plink">
+                                                Github de los ejercicios
+                                            </a>
+                                            <br/>
+                                            <a href="https://github.com/Camiletb/L1-SIM" class="plink">
+                                                Github de los laboratorios
+                                            </a>
+                                            <!-- <hr/> -->
+                                    </div>
+                                </div>
+                                <div id="break" class="col-1"></div>
+                                <div id="curso" class="text-start">
+                                    <h6>Curso</h6>
+                                    <p class="mb-0">Simulación 2021/2022</p>
+                                    <p class="mb-0"> 3º Enginyeria Multimèdia - Escola Tècnica Superior d'Enginyeries</p>
+                                    <p> Universitat de València</p>
+                                </div>
+                                </div>
                                 <hr/>
                                 <!-- <div class="github-card" data-github="Camiletb/" data-width="400" data-height="" data-theme="medium"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script> -->
@@ -144,17 +159,46 @@
         <div class="capas osc text-light">
             <div class="container text-light">
                 <!-- Título asignatura -->
-                <div class="asignatitulo text-end">
-                    <h1>Ejercicios de clase</h1>
-                    
-                    <br/>
-                    <!-- <p>Próximamente</p> -->
+                <div class=" asignatitulo text-start">
+                    <h1 id="ejerciciosClase" class="text-end"">Ejercicios de clase</h1>
+                    <hr/>
+                </div>
+                <div id="ejercicios" class="d-flex mt-5">
+                    <div id="ej1" class="container col-5">
+                        <h2 class="">1 Montañas rusas</h2>
+                        <p>El objetivo es empezar a manejar velocidades y aceleraciones de partículas según diversas condiciones, como las pendientes.</p>
+                        <div class="  d-flex justify-content-center align-items-center mb-3">       
+                            <img src="gmontanya.gif" class="justify-self-center" alt="Ejericio de la montaña rusa" width="100%">
+                        </div>
+
+                        <p>Para hacer ambos ejercicios elegimos unos puntos que definieran la forma de nuestra montaña. Estos puntos fueron unidos por líneas. Y estas líneas son recorridas por una partícula con atributos de posición, velocidad y aceleración.</p>
+                        <!-- <div id="ej1" class="d-flex col-9"> -->   
+                    </div>
+                <br/>
+                
+                    <div id="ej2" class="container col-5">
+                        <h2 class="">2 Muelles</h2>
+                        <p>Con estos ejercicios empezamos a introducir fuerzas externas que afectan a nuestras partículas.</p>
+                        <div class="  d-flex justify-content-center align-items-center mb-3">       
+                            <img src="gmuelles.gif" class="justify-self-center" alt="Ejericio de la montaña rusa" width="100%">
+                        </div>
+
+                        <p>Sobre nuestra partícula ejercemos fuerzas como la gravedad o la elástica. En el primer caso, además, añadimos fuerzas de rozamiento con el aire, y de amortiguación con el muelle.</p>
+                        <!-- <div id="ej1" class="d-flex col-9"> -->   
+                    </div>
+                        <br/>
+                    <!-- </div> -->
+                        <!-- <h2 class="mt-5">2 Muelles</h2>
+                        <p>Con estos ejercicios empezamos a introducir fuerzas externas que afectan a nuestras partículas, como la gravedad o las aplicadas por un muelle.</p>
+                        <img src="gmuelles.gif" class="text-center" alt="Ejericio de muelles" width="50%">
+                        <br/> -->
+                        <!-- <p>Próximamente</p> -->
                     <!-- Entrega 1 -->
                     <!-- <script type="text/p5" src="js/ej1.js" data-autoplay data-preview-width="400">
                        
                     </script> -->
-                    <script defer src=http://CDN.JSDelivr.net/processing.js/latest></script>
-                    <canvas data-processing-sources=/sketch.pde></canvas>
+                    <!-- <script defer src=http://CDN.JSDelivr.net/processing.js/latest></script> -->
+                    <!-- <canvas data-processing-sources=/sketch.pde></canvas> -->
                 </div>
             </div>
 
