@@ -82,3 +82,10 @@ figure{
 .asignatitulo{
     padding-top: 10vh;
 }
+
+.plink{
+    color: lightskyblue;
+}
+.plink:hover{
+    color:#d12642;
+}
