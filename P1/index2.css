@@ -44,10 +44,12 @@ footer {
     padding-bottom: 40px;
     margin: 0;
     background-color: white;
-    background-color: #ECECEC;
+    /* background-color: #ECECEC; */
+    background-color: #181a1b;
 }
 .corpocolor{
-    color:#d12642;
+    /* color:#d12642; */
+    color: lightskyblue;
 }
 
 .jumbotron h1 {
