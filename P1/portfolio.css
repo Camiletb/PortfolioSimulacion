@@ -30,12 +30,13 @@
     /* background-color: #373E48; */
     background-color: #181a1b;
     /* border-bottom:1px solid #ECECEC; */
-    border-bottom:1px solid #373E48;
+    /* border-bottom:1px solid #373E48; */
     /* border-top:1px solid #373E48; */
 }
 
 #leftP{
     background-color: #181a1b;
+    /* background-color: #373E48; */
     border-right:1px solid #373E48;
 }
 #rightP{
