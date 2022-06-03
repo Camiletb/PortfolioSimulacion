@@ -33,6 +33,11 @@
     /* border-bottom:1px solid #373E48; */
     /* border-top:1px solid #373E48; */
 }
+#navbar a:hover{
+    justify-content: center;
+    color: lightblue;
+    /* color: #d12642; */
+}
 
 #leftP{
     background-color: #181a1b;
