@@ -69,12 +69,6 @@
     /* height: 15vh; */
     width: 45vw;
 }
-#info{
-    /* height: -5vh; */
-    /* position: absolute;
-    top: 25vh; */
-    
-}
 .fotoasignatura{
     margin: 30px 30px;
     height: 20vh;
@@ -105,11 +99,11 @@ figure{
 
 .plink{
     color: lightskyblue;
+    text-decoration: none;
 }
 .plink:hover{
     color:#d12642;
 }
-
-#wave{
+#ej6{
     border: 1px solid lightskyblue;
 }
