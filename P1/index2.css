@@ -166,10 +166,6 @@ footer {
     border-radius: 5px;
     box-shadow: 0em 0em 0.7em 0.03em rgba(83, 93, 108, 0.2);
     margin: 10px;
-    /* height: max-content; */
-    /* height: 213px; */
-    /* padding: 0; */
-    /* height:fit-content; */
 }
 .aux{
     /* height:fit-content; */
@@ -179,16 +175,10 @@ footer {
     /* padding: 10px 10px; */
     margin-top: auto;
     margin-bottom: auto;
-    /* height: 110%; */
-    /* margin: 5px 5px; */
-    /* border-radius: 20px 0px; */
-    /* border-radius: 20px 0px; */
 }
 .nombrestaff{
     display: inline;
     padding-bottom: 0;
-    /* margin-bottom: 100px; */
-    /* padding-bottom: 50px; */
 }
 
 .bio {
